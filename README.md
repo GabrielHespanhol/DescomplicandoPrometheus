@@ -63,14 +63,14 @@ scrape_configs:
       - targets: ["localhost:9090"]
 ```
 
-Criando diretórios restantes utilizados pelo serviço do prometheus e criando o service unit.
+Criando diretórios restantes utilizados pelo serviço do prometheus e criando o prometheus.service
 ```
 sudo mkdir /var/lib/prometheus
 
 sudo vim /etc/systemd/system/prometheus.service
 ```
 
-Conteudo do service unite:
+Conteudo do prometheus.service:
 ```
 [Unit]
 Description=Prometheus
