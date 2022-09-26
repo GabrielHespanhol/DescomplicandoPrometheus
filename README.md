@@ -98,7 +98,7 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
-Alterando o proprietáro dos arquivos e diretórios para os arquivos e diretórios utilizados pelo prometheus.
+Alterando o proprietário dos arquivos e diretórios para os arquivos e diretórios utilizados pelo prometheus.
 ```
 sudo chown -R prometheus:prometheus /var/log/prometheus
 sudo chown -R prometheus:prometheus /etc/prometheus
@@ -107,7 +107,7 @@ sudo chown -R prometheus:prometheus /usr/local/bin/prometheus
 sudo chown -R prometheus:prometheus /usr/local/bin/promtool
 ```
 
-Realizando o reload e start do serviço do prometheus.
+Realizando o reload do systemD e iniciando o serviço do prometheus.
 
 ```
 sudo systemctl daemon-reload
