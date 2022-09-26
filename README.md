@@ -1,6 +1,6 @@
 # Manual de instalação do Prometheus
 
-Manual de instalação do prometheus para máquinas linux. O Manuel está sendo criado para estudo do curso Descomplicando o prometheus da Linuxtips.
+Manual de instalação do prometheus para máquinas linux. O manual está sendo criado para estudo do curso Descomplicando o prometheus da Linuxtips.
 
 * Acesso ao site da linuxtips: [Site da Linuxtips](https://www.linuxtips.io/)
 * Acesso ao site e documentação do prometheus: [Site do prometheus](https://prometheus.io)
